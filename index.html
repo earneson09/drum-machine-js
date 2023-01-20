@@ -1,0 +1,48 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" rel='stylesheet' type='text/css'></link>
+</head>
+    <body>
+        <div id="drum-machine">
+            <h2 style="text-align: center; color: white; margin-right: 25px;">Drum Machine</h2>
+            <div id="display"></div>
+            <div class="drum-pad" id="Heater-1" onclick="playAudio('Q');" style="box-shadow: gray 5px 5px 5px;">
+            Q
+                <audio class="clip" id="Q" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Heater-2" onclick="playAudio('W');" style="box-shadow: gray 5px 5px 5px;">
+            W
+                <audio class="clip" id="W" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Heater-3" onclick = "playAudio('E');" style="box-shadow: gray 5px 5px 5px;">
+            E
+                <audio class="clip" id="E" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Heater-4" onclick="playAudio('A');" style="box-shadow: gray 5px 5px 5px;">
+            A
+                <audio class="clip" id="A" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Clap" onclick="playAudio('S');" style="box-shadow: gray 5px 5px 5px;">
+            S
+                <audio class="clip" id="S" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Open-HH" onclick="playAudio('D');" style="box-shadow: gray 5px 5px 5px;">
+            D
+                <audio class="clip" id="D" src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"></audi>
+            </div>
+            <div class="drum-pad" id="Kick-n'-Hat" onclick="playAudio('Z');" style="box-shadow: gray 5px 5px 5px;">
+            Z
+                <audio class="clip" id="Z" src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Kick" onclick="playAudio('X');"style="box-shadow: gray 5px 5px 5px;">
+            X
+                <audio class="clip" id="X" src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"></audio>
+            </div>
+            <div class="drum-pad" id="Closed-HH" onclick="playAudio('C');" style="box-shadow: gray 5px 5px 5px;">
+            C
+                <audio class="clip" id="C" src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"></audio>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
